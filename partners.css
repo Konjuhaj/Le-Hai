@@ -1,0 +1,20 @@
+.partners .tag-line {
+  width: 90%;
+  margin: auto;
+
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.partners-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
+
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.partners-wrapper img {
+  max-width: 100%;
+}

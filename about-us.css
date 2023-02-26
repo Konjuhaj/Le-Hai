@@ -1,0 +1,61 @@
+.about-us {
+  display: flex;
+  width: 90%;
+  margin: auto;
+
+  gap: 10%;
+}
+
+.about-us .tag-line {
+  font-family: "Helvetica Now Display", "Helvetica", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.15em;
+
+  flex-shrink: 0;
+  padding: 10px 0;
+}
+
+.our-processes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.process {
+  display: flex;
+  gap: 10%;
+}
+
+.process > h3 {
+  letter-spacing: 0.5em;
+  font-weight: 300;
+
+  padding-top: 15px;
+}
+
+.title {
+  font-family: "Blacker Display", "Times", serif;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  font-size: 60px;
+}
+
+.explanation {
+  padding-top: 20px;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  font-weight: 300;
+
+  width: 70%;
+  line-height: 1.3em;
+}
+
+@media (max-width: 1000px) {
+  .about-us {
+    flex-wrap: wrap;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+}
