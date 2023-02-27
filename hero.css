@@ -138,6 +138,10 @@
 
 @media (max-width: 1000px) {
   .hero h1 {
-    font-size: 50px;
+    font-size: 40px;
+  }
+
+  .hero-column-3 p {
+    text-align: left;
   }
 }
