@@ -135,3 +135,9 @@
   -o-animation: rotating 7s linear infinite;
   animation: rotating 7s linear infinite;
 }
+
+@media (max-width: 1000px) {
+  .hero h1 {
+    font-size: 50px;
+  }
+}
