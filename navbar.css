@@ -39,11 +39,11 @@ body {
   text-decoration: none;
   color: #0e2431;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 0.7rem;
 }
 
-.navbar .nav-container a:hover {
+.navbar .nav-container a:hover:not(.meeting) {
   font-weight: bolder;
 }
 
@@ -129,7 +129,7 @@ body {
 
   .navbar .menu-items li {
     margin-bottom: 1.2rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
   }
 
@@ -161,4 +161,14 @@ body {
   .nav-container input[type="checkbox"]:checked ~ .logo {
     display: none;
   }
+}
+
+.meeting {
+  background-color: #f4f9ff;
+  border: 1px solid #a0c8ff;
+  border-radius: 2px;
+  color: #006bff;
+
+  font-weight: 500;
+  font-size: 1.2rem;
 }
